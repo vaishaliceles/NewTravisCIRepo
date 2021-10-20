@@ -3,7 +3,6 @@ dist: xenial
 language: python
 python:
   - "3.7"
-arch: amd64
 script:
    - python TestScript/totestfile.py
 
