@@ -1,5 +1,5 @@
-os: linux
-dist: xenial
+os: freebsd
+arch: amd64
 language: python
 python:
   - "3.7"
