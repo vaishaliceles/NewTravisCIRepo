@@ -1,8 +1,9 @@
-os: linux
-dist: xenial
-language: python
-python:
-  - "3.7"
-script:
-   - python TestScript/totestfile.py
+jobs:
+  include:
+    - os: linux
+      dist: xenial
+      language: python
+      arch: amd64
+      script:
+        - python TestScript/totestfile.py
 
